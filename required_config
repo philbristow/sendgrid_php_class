@@ -1,0 +1,13 @@
+Other tasks to complete,
+
+  1)  Download the sendgrid api library from <a href="https://sendgrid-open-source.s3.amazonaws.com/sendgrid-php/sendgrid-php.zip" >here</a>
+  2)  Require the library from downloaded package:
+
+  require_once('path/to/sendgrid-php/sendgrid-php.php');
+
+  3)  Setup basic configuration settings including:
+        Your sendgrid API kay: email_sendgrid_api_key
+        Default template: email_sendgrid_template
+        Mail footer : email_footer
+        Sending address: email_from_address
+        Sending Name: email_from_name
